@@ -54,6 +54,8 @@
 </script>
 
 {#if href}
+	<!-- href is provided by callers (hash, external, or already-resolved path). -->
+	<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
 	<a class={classes} {href} aria-label={ariaLabel}>
 		{@render children?.()}
 	</a>

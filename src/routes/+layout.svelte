@@ -4,6 +4,7 @@
 	import myself from '$lib/assets/myself.png';
 	import myselfAvif from '$lib/assets/myself.avif';
 	import myselfWebp from '$lib/assets/myself.webp';
+	import { resolve } from '$app/paths';
 
 	const COPYRIGHT_YEAR = 2026;
 
@@ -38,7 +39,12 @@
 		}
 	);
 
-	const langQuery = $derived(`?lang=${locale}`);
+	const homeHref = $derived(resolve(`/?lang=${locale}`));
+	const projectsHref = $derived(resolve(`/?lang=${locale}#projects`));
+	const aboutHref = $derived(resolve(`/?lang=${locale}#about`));
+	const contactHref = $derived(resolve(`/?lang=${locale}#contact`));
+	const frHref = resolve('/?lang=fr');
+	const enHref = resolve('/?lang=en');
 
 	const defaultTitle = $derived(
 		locale === 'fr'
@@ -123,25 +129,25 @@
 					<div class="flex items-center gap-3">
 						<nav class="hidden items-center gap-4 font-display text-xs uppercase md:flex">
 							<a
-								href={`/${langQuery}`}
+								href={homeHref}
 								class="rounded border border-transparent px-3 py-1 transition hover:border-secondary hover:bg-secondary/10"
 							>
 								{nav.home ?? 'Accueil'}
 							</a>
 							<a
-								href={`/${langQuery}#projects`}
+								href={projectsHref}
 								class="rounded border border-transparent px-3 py-1 transition hover:border-secondary hover:bg-secondary/10"
 							>
 								{nav.projects ?? 'Projets'}
 							</a>
 							<a
-								href={`/${langQuery}#about`}
+								href={aboutHref}
 								class="rounded border border-transparent px-3 py-1 transition hover:border-secondary hover:bg-secondary/10"
 							>
 								{nav.about ?? 'À propos'}
 							</a>
 							<a
-								href={`/${langQuery}#contact`}
+								href={contactHref}
 								class="rounded border border-transparent px-3 py-1 transition hover:border-secondary hover:bg-secondary/10"
 							>
 								{nav.contact ?? 'Contact'}
@@ -150,7 +156,7 @@
 
 						<div class="inline-flex overflow-hidden rounded border border-main/60 bg-surface/80">
 							<a
-								href="?lang=fr"
+								href={frHref}
 								class={`px-2 py-1 transition ${
 									locale === 'fr'
 										? 'bg-secondary-dark text-surface'
@@ -160,7 +166,7 @@
 								{layout.lang_switch_fr ?? 'FR'}
 							</a>
 							<a
-								href="?lang=en"
+								href={enHref}
 								class={`border-l border-main/40 px-2 py-1 transition ${
 									locale === 'en'
 										? 'bg-secondary-dark text-surface'

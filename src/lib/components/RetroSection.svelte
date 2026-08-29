@@ -14,21 +14,21 @@
 
 <section {id} class="space-y-3">
 	{#if eyebrow}
-		<p class="font-display text-secondary-text text-xs tracking-[0.3em] uppercase">
+		<p class="font-display text-xs tracking-[0.3em] text-secondary-text uppercase">
 			{eyebrow}
 		</p>
 	{/if}
 
 	{#if title}
 		<h2
-			class="font-display text-main text-2xl font-semibold leading-tight drop-shadow-[2px_2px_0px_rgba(0,0,0,0.6)] sm:text-3xl"
+			class="font-display text-2xl leading-tight font-semibold text-main drop-shadow-[2px_2px_0px_rgba(0,0,0,0.6)] sm:text-3xl"
 		>
 			{title}
 		</h2>
 	{/if}
 
 	{#if description}
-		<p class="text-main/85 max-w-xl text-sm sm:text-base">
+		<p class="max-w-xl text-sm text-main/85 sm:text-base">
 			{description}
 		</p>
 	{/if}

@@ -12,4 +12,3 @@ export type Messages = (typeof dictionaries)[Locale];
 export function getDictionary(locale: Locale) {
 	return dictionaries[locale];
 }
-

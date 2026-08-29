@@ -188,9 +188,9 @@
 			'Quelques exemples de plateformes et d’applications sur lesquelles j’ai travaillé récemment.'}
 	>
 		<div class="grid gap-4 md:grid-cols-2">
-			{#each home.projects?.items ?? [] as project}
+			{#each home.projects?.items ?? [] as project (project.name ?? project.url)}
 				{#if project.url}
-					<a href={project.url} target="_blank" rel="noreferrer" class="block">
+					<a href={project.url} target="_blank" rel="external noreferrer" class="block">
 						<RetroCard
 							as="article"
 							interactive
@@ -226,7 +226,7 @@
 		<div class="grid gap-6 md:grid-cols-[minmax(0,3fr)_minmax(0,2fr)]">
 			<div class="space-y-3 text-sm text-main/85 sm:text-base">
 				<ul class="list-disc space-y-2 pl-4">
-					{#each home.about?.highlights ?? [] as item}
+					{#each home.about?.highlights ?? [] as item (item)}
 						<li>{item}</li>
 					{/each}
 				</ul>
@@ -241,7 +241,7 @@
 					{home.about?.stack_title ?? 'Stack & outils'}
 				</p>
 				<ul class="space-y-2 rounded border border-main/60 bg-surface px-4 py-3">
-					{#each home.about?.stack_items ?? [] as item}
+					{#each home.about?.stack_items ?? [] as item (item)}
 						<li class="flex items-start gap-2">
 							<span class="mt-[5px] h-1.5 w-1.5 rounded-full bg-secondary"></span>
 							<span>{item}</span>
@@ -300,8 +300,7 @@
 						rows="4"
 						class="block w-full rounded border border-main/50 bg-surface/95 px-3 py-2 text-sm text-main shadow-[3px_3px_0px_rgba(43,42,42,0.7)] focus-visible:ring-2 focus-visible:ring-secondary focus-visible:ring-offset-2 focus-visible:ring-offset-bg-body focus-visible:outline-none"
 						placeholder={home.contact?.form?.message_placeholder ??
-							'Parlez-moi de votre projet, de votre contexte ou de vos besoins…'}
-					></textarea>
+							'Parlez-moi de votre projet, de votre contexte ou de vos besoins…'}></textarea>
 				</div>
 
 				<div class="pt-2">
@@ -327,7 +326,7 @@
 					{home.contact?.alt_contact?.label ?? 'Contact direct'}
 				</p>
 				<p>
-					{home.contact?.alt_contact?.email_prefix ?? 'Écrivez-moi à'}{' '}
+					{home.contact?.alt_contact?.email_prefix ?? 'Écrivez-moi à'}
 					<a
 						href={`mailto:${home.contact?.alt_contact?.email ?? 'jbs.io@protonmail.com'}`}
 						class="text-secondary-text underline underline-offset-2 hover:text-secondary-text/80"

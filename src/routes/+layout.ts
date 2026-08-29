@@ -16,4 +16,3 @@ export const load: LayoutLoad = async ({ url, data }) => {
 		messages
 	};
 };
-
