@@ -11,7 +11,6 @@ export default defineConfig({
 		passWithNoTests: true,
 		projects: [
 			{
-				extends: './vite.config.ts',
 				test: {
 					name: 'client',
 					browser: {
@@ -23,9 +22,7 @@ export default defineConfig({
 					exclude: ['src/lib/server/**']
 				}
 			},
-
 			{
-				extends: './vite.config.ts',
 				test: {
 					name: 'server',
 					environment: 'node',
