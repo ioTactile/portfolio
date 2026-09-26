@@ -3,49 +3,49 @@
 @plugin '@tailwindcss/typography';
 
 @font-face {
-	font-family: 'Space Grotesk';
-	src: url('$lib/assets/fonts/SpaceGrotesk-Regular.ttf') format('truetype');
-	font-weight: 400;
-	font-style: normal;
-	font-display: swap;
+  font-family: 'Space Grotesk';
+  src: url('$lib/assets/fonts/SpaceGrotesk-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-	font-family: 'Tilt Neon';
-	src: url('$lib/assets/fonts/TiltNeon-Regular.ttf') format('truetype');
-	font-weight: 400;
-	font-style: normal;
-	font-display: swap;
+  font-family: 'Tilt Neon';
+  src: url('$lib/assets/fonts/TiltNeon-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 @theme {
-	--color-bg-body: #f5f2f2;
-	--color-primary: #feb05d;
-	--color-secondary: #5a7acd;
-	/* Fond bouton actif (sélecteur de langue) : contraste WCAG avec texte blanc */
-	--color-secondary-dark: #3d5a9e;
-	/* Texte secondaire lisible sur fond clair (eyebrows, liens) */
-	--color-secondary-text: #2d3d6b;
-	--color-surface: #ffffff;
-	--color-card: #fff7ec;
-	--color-main: #2b2a2a;
+  --color-bg-body: #f5f2f2;
+  --color-primary: #feb05d;
+  --color-secondary: #5a7acd;
+  /* Fond bouton actif (sélecteur de langue) : contraste WCAG avec texte blanc */
+  --color-secondary-dark: #3d5a9e;
+  /* Texte secondaire lisible sur fond clair (eyebrows, liens) */
+  --color-secondary-text: #2d3d6b;
+  --color-surface: #ffffff;
+  --color-card: #fff7ec;
+  --color-main: #2b2a2a;
 
-	--font-body:
-		'Space Grotesk', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-	--font-display: 'Tilt Neon', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-body:
+    'Space Grotesk', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-display: 'Tilt Neon', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
 @layer base {
-	body {
-		@apply font-body text-main;
-	}
+  body {
+    @apply font-body text-main;
+  }
 
-	h1,
-	h2,
-	h3,
-	h4,
-	h5,
-	h6 {
-		@apply font-display text-main;
-	}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-display text-main;
+  }
 }

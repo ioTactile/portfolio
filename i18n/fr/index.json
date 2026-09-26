@@ -1,165 +1,165 @@
 {
-	"app": {
-		"title": "Jordan Biesmans — Développeur web",
-		"description": "Portfolio de Jordan Biesmans, développeur web spécialisé frontend (Next.js, React, TypeScript) — conception d’interfaces modernes, performantes et maintenables."
-	},
-	"nav": {
-		"home": "Accueil",
-		"projects": "Projets",
-		"about": "À propos",
-		"contact": "Contact"
-	},
-	"hero": {
-		"hello": "Salut, c’est Jordan",
-		"cta_primary": "Voir mes projets",
-		"cta_secondary": "En savoir plus sur moi"
-	},
-	"layout": {
-		"name": "Jordan Biesmans",
-		"role": "Développeur web — Next.js, React, Node.js,TypeScript",
-		"badge": "Frontend / Next.js / React",
-		"footer": "Développeur web spécialisé frontend.",
-		"lang_switch_label": "Langue",
-		"lang_switch_fr": "FR",
-		"lang_switch_en": "EN"
-	},
-	"home": {
-		"title_main": "Je conçois des interfaces web",
-		"title_accent": "modernes, rapides et maintenables.",
-		"body": "Développeur web spécialisé Next.js / React / TypeScript, je crée des expériences numériques modernes, pensées pour les besoins actuels : performance, SEO, accessibilité et qualité du code.",
-		"stats": {
-			"stack_label": "Stack",
-			"stack_value": "Next.js, React, Node.js, TypeScript",
-			"focus_label": "Focus",
-			"focus_value": "Performance, SEO, accessibilité",
-			"experience_label": "Expérience",
-			"experience_value": "+3 ans freelance",
-			"projects_label": "Projets",
-			"projects_value": "Startups, PME, grands comptes"
-		},
-		"console": {
-			"title": "DEV CONSOLE // DISPONIBILITÉ",
-			"line1": "> missions: frontend / intégration / refonte UI",
-			"line2": "> formats: régie, forfait, accompagnement ponctuel",
-			"line3": "> zone: remote France / Europe, hybride (Paris, Rennes, Laval)",
-			"availability": "Slots disponibles pour démarrer un nouveau projet dans les prochaines semaines."
-		},
-		"projects": {
-			"eyebrow": "Projets",
-			"title": "Des projets concrets pour des enjeux réels",
-			"description": "Quelques exemples de plateformes et d’applications sur lesquelles j’ai travaillé récemment, avec un focus sur la performance, l’accessibilité et la qualité de l’architecture frontend.",
-			"items": [
-				{
-					"name": "Adequancy",
-					"role": "Plateforme de management de transition",
-					"stack": "Next.js, TypeScript, SSR, MUI, Redux",
-					"impact": "Développement complet de la plateforme, optimisation du SEO et des temps de chargement sur des pages complexes.",
-					"meta": "Projet pour un acteur du management de transition.",
-					"url": "https://adequancy.com/dg"
-				},
-				{
-					"name": "Promea",
-					"role": "Application RH inclusive",
-					"stack": "Next.js, React Query, Zustand, Fastify, TRPC, Prisma, Zod",
-					"impact": "Mise en place d’une base frontend en DDD (Domain Driven Design) robustes et quelques interventions backend, orientée accessibilité et maintenabilité à long terme.",
-					"meta": "Outil pour suivre et accompagner les collaborateurs en situation de handicap."
-				},
-				{
-					"name": "Mediawan",
-					"role": "Refonte de site vitrine",
-					"stack": "React, Sass, Framer Motion",
-					"impact": "Intégration précise des maquettes, animations soignées et gestion du multilingue.",
-					"meta": "Projet pour un groupe média européen.",
-					"url": "https://www.mediawan.com"
-				},
-				{
-					"name": "Reboat",
-					"role": "Site vitrine",
-					"stack": "Next.js, Directus, SSR, TypeScript, Tailwind CSS",
-					"impact": "Création d’un système de composants personnalisés et modulaires sur Directus, donnant au client une totale autonomie dans la construction et l’organisation de ses pages.",
-					"meta": "Projet pour un service de location de bateaux reconditionnés.",
-					"url": "https://reboat.com"
-				},
-				{
-					"name": "Sacré Brunch",
-					"role": "Site vitrine & back‑office",
-					"stack": "Nuxt.js, Vue.js, TypeScript, Stripe",
-					"impact": "Refonte du parcours de réservation, intégration d'un outil pour la gestion des salles/reservations et mise en place d’un shop connecté à Stripe.",
-					"meta": "Projet pour un concept de brunch événementiel.",
-					"url": "https://sacrebrunch.com"
-				},
-				{
-					"name": "Le P'tit Champ",
-					"role": "Back‑office",
-					"stack": "Nuxt.js, Vue.js, TypeScript",
-					"impact": "Mise en place d’un back‑office pour la gestion des commandes et des clients.",
-					"meta": "Projet pour un magasin fermier en circuit court."
-				},
-				{
-					"name": "Vertical Sync (Projet personnel)",
-					"role": "Application autour de l'escalade",
-					"stack": "Next.js, React, TypeScript, Shadcn/UI, Tailwind CSS, Leaflet, AWS S3, Neon DB, Clerk.js, Vercel",
-					"impact": "Mise en place d’une application avec un blog, un forum, une carte interactive des spots de grimpe en France, avec informations sur les conditions météorologiques, les difficultés, les commentaires, les photos, les vidéos, etc.",
-					"meta": "Projet pour une application autour de l'escalade.",
-					"url": "https://vertical-sync.iotactile.com"
-				},
-				{
-					"name": "ioTactile Games (Projet personnel)",
-					"role": "Application de jeux de société",
-					"stack": "Nuxt.js, Vue.js, TypeScript, Vuetify",
-					"impact": "Mise en place d’une application de jeux de sociétés multijoueurs et solo, avec lecteur de musique intégré",
-					"meta": "Projet pour une application de jeux de société.",
-					"url": "https://games.iotactile.com"
-				}
-			]
-		},
-		"about": {
-			"eyebrow": "À propos",
-			"title": "Un développeur frontend qui pense produit",
-			"intro": "Je m’appelle Jordan Biesmans, développeur web spécialisé sur l’écosystème React, Next.js, TypeScript. Je conçois des interfaces modernes, pensées pour être performantes, accessibles et maintenables.",
-			"highlights": [
-				"Plus de 3 ans d’expérience dont 2 en freelance sur des projets pour startups, PME et grands groupes.",
-				"Habitué à travailler avec des équipes produit, design et backend, en méthodologies agiles.",
-				"Focalisé sur la qualité de l’architecture frontend, le SEO, les perfs et l’accessibilité (a11y)."
-			],
-			"stack_title": "Ce avec quoi je travaille au quotidien",
-			"stack_items": [
-				"Next.js, React, Node.js, TypeScript",
-				"React Query, React hooks forms, Zustand,  Zod",
-				"Shadcn/UI, Tailwind CSS, design systems, intégration Figma",
-				"Animation et micro‑interactions (Motion One / Framer‑like)",
-				"Fastify, TRPC, Prisma, APIs REST, Gestion du cache, SSR / Server Components (Next.js)",
-				"Stripe, Resend, AWS, Vercel, Docker, Linux",
-				"Vitest, Playwright, Husky, Prettier, ESLint",
-				"DDD (Domain Driven Design), Clean Architecture"
-			],
-			"cta": "Ouvert aux missions frontend et full‑stack léger, en remote ou hybride."
-		},
-		"contact": {
-			"eyebrow": "Contact",
-			"title": "Parlons de votre projet",
-			"intro": "Que vous ayez besoin d’un accompagnement sur une interface existante, d’un MVP à lancer rapidement ou d’une refonte complète, vous pouvez me contacter directement via ce formulaire.",
-			"form": {
-				"name_label": "Nom",
-				"name_placeholder": "Votre nom ou celui de votre organisation",
-				"email_label": "Email",
-				"email_placeholder": "vous@exemple.com",
-				"message_label": "Message",
-				"message_placeholder": "Parlez-moi de votre projet, de votre contexte ou de vos besoins…",
-				"submit": "Envoyer le message"
-			},
-			"alt_contact": {
-				"label": "Vous préférez un contact direct ?",
-				"email_prefix": "Écrivez-moi à",
-				"email": "jbs.io@protonmail.com",
-				"links_label": "Ou retrouvez-moi ici",
-				"github": "GitHub",
-				"linkedin": "LinkedIn"
-			},
-			"feedback": {
-				"success": "Merci, votre message a bien été envoyé.",
-				"error": "Une erreur est survenue lors de l’envoi. Vous pouvez aussi m’écrire directement par email."
-			}
-		}
-	}
+  "app": {
+    "title": "Jordan Biesmans — Développeur web",
+    "description": "Portfolio de Jordan Biesmans, développeur web spécialisé frontend (Next.js, React, TypeScript) — conception d’interfaces modernes, performantes et maintenables."
+  },
+  "nav": {
+    "home": "Accueil",
+    "projects": "Projets",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "hero": {
+    "hello": "Salut, c’est Jordan",
+    "cta_primary": "Voir mes projets",
+    "cta_secondary": "En savoir plus sur moi"
+  },
+  "layout": {
+    "name": "Jordan Biesmans",
+    "role": "Développeur web — Next.js, React, Node.js,TypeScript",
+    "badge": "Frontend / Next.js / React",
+    "footer": "Développeur web spécialisé frontend.",
+    "lang_switch_label": "Langue",
+    "lang_switch_fr": "FR",
+    "lang_switch_en": "EN"
+  },
+  "home": {
+    "title_main": "Je conçois des interfaces web",
+    "title_accent": "modernes, rapides et maintenables.",
+    "body": "Développeur web spécialisé Next.js / React / TypeScript, je crée des expériences numériques modernes, pensées pour les besoins actuels : performance, SEO, accessibilité et qualité du code.",
+    "stats": {
+      "stack_label": "Stack",
+      "stack_value": "Next.js, React, Node.js, TypeScript",
+      "focus_label": "Focus",
+      "focus_value": "Performance, SEO, accessibilité",
+      "experience_label": "Expérience",
+      "experience_value": "+3 ans freelance",
+      "projects_label": "Projets",
+      "projects_value": "Startups, PME, grands comptes"
+    },
+    "console": {
+      "title": "DEV CONSOLE // DISPONIBILITÉ",
+      "line1": "> missions: frontend / intégration / refonte UI",
+      "line2": "> formats: régie, forfait, accompagnement ponctuel",
+      "line3": "> zone: remote France / Europe, hybride (Paris, Rennes, Laval)",
+      "availability": "Slots disponibles pour démarrer un nouveau projet dans les prochaines semaines."
+    },
+    "projects": {
+      "eyebrow": "Projets",
+      "title": "Des projets concrets pour des enjeux réels",
+      "description": "Quelques exemples de plateformes et d’applications sur lesquelles j’ai travaillé récemment, avec un focus sur la performance, l’accessibilité et la qualité de l’architecture frontend.",
+      "items": [
+        {
+          "name": "Adequancy",
+          "role": "Plateforme de management de transition",
+          "stack": "Next.js, TypeScript, SSR, MUI, Redux",
+          "impact": "Développement complet de la plateforme, optimisation du SEO et des temps de chargement sur des pages complexes.",
+          "meta": "Projet pour un acteur du management de transition.",
+          "url": "https://adequancy.com/dg"
+        },
+        {
+          "name": "Promea",
+          "role": "Application RH inclusive",
+          "stack": "Next.js, React Query, Zustand, Fastify, TRPC, Prisma, Zod",
+          "impact": "Mise en place d’une base frontend en DDD (Domain Driven Design) robustes et quelques interventions backend, orientée accessibilité et maintenabilité à long terme.",
+          "meta": "Outil pour suivre et accompagner les collaborateurs en situation de handicap."
+        },
+        {
+          "name": "Mediawan",
+          "role": "Refonte de site vitrine",
+          "stack": "React, Sass, Framer Motion",
+          "impact": "Intégration précise des maquettes, animations soignées et gestion du multilingue.",
+          "meta": "Projet pour un groupe média européen.",
+          "url": "https://www.mediawan.com"
+        },
+        {
+          "name": "Reboat",
+          "role": "Site vitrine",
+          "stack": "Next.js, Directus, SSR, TypeScript, Tailwind CSS",
+          "impact": "Création d’un système de composants personnalisés et modulaires sur Directus, donnant au client une totale autonomie dans la construction et l’organisation de ses pages.",
+          "meta": "Projet pour un service de location de bateaux reconditionnés.",
+          "url": "https://reboat.com"
+        },
+        {
+          "name": "Sacré Brunch",
+          "role": "Site vitrine & back‑office",
+          "stack": "Nuxt.js, Vue.js, TypeScript, Stripe",
+          "impact": "Refonte du parcours de réservation, intégration d'un outil pour la gestion des salles/reservations et mise en place d’un shop connecté à Stripe.",
+          "meta": "Projet pour un concept de brunch événementiel.",
+          "url": "https://sacrebrunch.com"
+        },
+        {
+          "name": "Le P'tit Champ",
+          "role": "Back‑office",
+          "stack": "Nuxt.js, Vue.js, TypeScript",
+          "impact": "Mise en place d’un back‑office pour la gestion des commandes et des clients.",
+          "meta": "Projet pour un magasin fermier en circuit court."
+        },
+        {
+          "name": "Vertical Sync (Projet personnel)",
+          "role": "Application autour de l'escalade",
+          "stack": "Next.js, React, TypeScript, Shadcn/UI, Tailwind CSS, Leaflet, AWS S3, Neon DB, Clerk.js, Vercel",
+          "impact": "Mise en place d’une application avec un blog, un forum, une carte interactive des spots de grimpe en France, avec informations sur les conditions météorologiques, les difficultés, les commentaires, les photos, les vidéos, etc.",
+          "meta": "Projet pour une application autour de l'escalade.",
+          "url": "https://vertical-sync.iotactile.com"
+        },
+        {
+          "name": "ioTactile Games (Projet personnel)",
+          "role": "Application de jeux de société",
+          "stack": "Nuxt.js, Vue.js, TypeScript, Vuetify",
+          "impact": "Mise en place d’une application de jeux de sociétés multijoueurs et solo, avec lecteur de musique intégré",
+          "meta": "Projet pour une application de jeux de société.",
+          "url": "https://games.iotactile.com"
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "À propos",
+      "title": "Un développeur frontend qui pense produit",
+      "intro": "Je m’appelle Jordan Biesmans, développeur web spécialisé sur l’écosystème React, Next.js, TypeScript. Je conçois des interfaces modernes, pensées pour être performantes, accessibles et maintenables.",
+      "highlights": [
+        "Plus de 3 ans d’expérience dont 2 en freelance sur des projets pour startups, PME et grands groupes.",
+        "Habitué à travailler avec des équipes produit, design et backend, en méthodologies agiles.",
+        "Focalisé sur la qualité de l’architecture frontend, le SEO, les perfs et l’accessibilité (a11y)."
+      ],
+      "stack_title": "Ce avec quoi je travaille au quotidien",
+      "stack_items": [
+        "Next.js, React, Node.js, TypeScript",
+        "React Query, React hooks forms, Zustand,  Zod",
+        "Shadcn/UI, Tailwind CSS, design systems, intégration Figma",
+        "Animation et micro‑interactions (Motion One / Framer‑like)",
+        "Fastify, TRPC, Prisma, APIs REST, Gestion du cache, SSR / Server Components (Next.js)",
+        "Stripe, Resend, AWS, Vercel, Docker, Linux",
+        "Vitest, Playwright, Husky, Prettier, ESLint",
+        "DDD (Domain Driven Design), Clean Architecture"
+      ],
+      "cta": "Ouvert aux missions frontend et full‑stack léger, en remote ou hybride."
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "title": "Parlons de votre projet",
+      "intro": "Que vous ayez besoin d’un accompagnement sur une interface existante, d’un MVP à lancer rapidement ou d’une refonte complète, vous pouvez me contacter directement via ce formulaire.",
+      "form": {
+        "name_label": "Nom",
+        "name_placeholder": "Votre nom ou celui de votre organisation",
+        "email_label": "Email",
+        "email_placeholder": "vous@exemple.com",
+        "message_label": "Message",
+        "message_placeholder": "Parlez-moi de votre projet, de votre contexte ou de vos besoins…",
+        "submit": "Envoyer le message"
+      },
+      "alt_contact": {
+        "label": "Vous préférez un contact direct ?",
+        "email_prefix": "Écrivez-moi à",
+        "email": "jbs.io@protonmail.com",
+        "links_label": "Ou retrouvez-moi ici",
+        "github": "GitHub",
+        "linkedin": "LinkedIn"
+      },
+      "feedback": {
+        "success": "Merci, votre message a bien été envoyé.",
+        "error": "Une erreur est survenue lors de l’envoi. Vous pouvez aussi m’écrire directement par email."
+      }
+    }
+  }
 }

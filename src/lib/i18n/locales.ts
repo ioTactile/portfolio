@@ -5,5 +5,5 @@ export type Locale = (typeof availableLocales)[number];
 export const DEFAULT_LOCALE: Locale = 'fr';
 
 export function isLocale(value: string): value is Locale {
-	return (availableLocales as readonly string[]).includes(value);
+  return (availableLocales as readonly string[]).includes(value);
 }

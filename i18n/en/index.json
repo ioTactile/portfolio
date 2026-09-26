@@ -1,165 +1,165 @@
 {
-	"app": {
-		"title": "Jordan Biesmans — Web developer",
-		"description": "Portfolio of Jordan Biesmans, frontend-focused web developer (Next.js, React, TypeScript) — designing modern, performant and maintainable interfaces."
-	},
-	"nav": {
-		"home": "Home",
-		"projects": "Projects",
-		"about": "About",
-		"contact": "Contact"
-	},
-	"hero": {
-		"hello": "Hello, I'm Jordan",
-		"cta_primary": "View my projects",
-		"cta_secondary": "Learn more about me"
-	},
-	"layout": {
-		"name": "Jordan Biesmans",
-		"role": "Web developer — Next.js, React, Node.js, TypeScript",
-		"badge": "Frontend / Next.js / React",
-		"footer": "Frontend-focused web developer.",
-		"lang_switch_label": "Language",
-		"lang_switch_fr": "FR",
-		"lang_switch_en": "EN"
-	},
-	"home": {
-		"title_main": "I design web interfaces",
-		"title_accent": "modern, fast and maintainable.",
-		"body": "Web developer specialized in Next.js / React / TypeScript. I build modern digital experiences optimized for today’s needs: performance, SEO, accessibility and code quality.",
-		"stats": {
-			"stack_label": "Stack",
-			"stack_value": "Next.js, React, Node.js, TypeScript",
-			"focus_label": "Focus",
-			"focus_value": "Performance, SEO, accessibility",
-			"experience_label": "Experience",
-			"experience_value": "3+ years freelance",
-			"projects_label": "Projects",
-			"projects_value": "Startups, SMBs, enterprises"
-		},
-		"console": {
-			"title": "DEV CONSOLE // AVAILABILITY",
-			"line1": "> missions: frontend / integration / UI redesign",
-			"line2": "> formats: time-based, fixed-price, ongoing support",
-			"line3": "> location: remote France / Europe, hybrid (Paris, Rennes, Laval)",
-			"availability": "Open slots to start a new project in the coming weeks."
-		},
-		"projects": {
-			"eyebrow": "Projects",
-			"title": "Concrete work for real-world needs",
-			"description": "A selection of platforms and applications I’ve worked on recently, with a strong focus on performance, accessibility and frontend architecture quality.",
-			"items": [
-				{
-					"name": "Adequancy",
-					"role": "Interim management platform",
-					"stack": "Next.js, TypeScript, SSR, MUI, Redux",
-					"impact": "End-to-end development of the platform, with advanced SEO and performance optimisations on complex pages.",
-					"meta": "Project for a player in the interim management market.",
-					"url": "https://adequancy.com/dg"
-				},
-				{
-					"name": "Promea",
-					"role": "Inclusive HR application",
-					"stack": "Next.js, React Query, Zustand, Fastify, TRPC, Prisma, Zod",
-					"impact": "Built a solid frontend foundation in DDD (Domain Driven Design) and some backend interventions, focused on accessibility and long-term maintainability.",
-					"meta": "Tool to support and follow employees with disabilities."
-				},
-				{
-					"name": "Mediawan",
-					"role": "Corporate website redesign",
-					"stack": "React, Sass, Framer Motion",
-					"impact": "Precise UI integration, polished animations and multilingual support.",
-					"meta": "Project for a European media group.",
-					"url": "https://www.mediawan.com"
-				},
-				{
-					"name": "Reboat",
-					"role": "Marketing site",
-					"stack": "Next.js, Directus, SSR, TypeScript, Tailwind CSS",
-					"impact": "Creation of a modular system of custom components in Directus, giving the client full autonomy in building and organizing their pages.",
-					"meta": "Project for a boat rental service.",
-					"url": "https://reboat.com"
-				},
-				{
-					"name": "Sacré Brunch",
-					"role": "Marketing site & back-office",
-					"stack": "Nuxt.js, Vue.js, TypeScript, Stripe",
-					"impact": "Redesigned the booking flow, integrated a tool for managing rooms/reservations and implemented an online shop connected to Stripe.",
-					"meta": "Project for an event-driven brunch concept.",
-					"url": "https://sacrebrunch.com"
-				},
-				{
-					"name": "Le P'tit Champ",
-					"role": "Back-office",
-					"stack": "Nuxt.js, Vue.js, TypeScript",
-					"impact": "Implementation of a back-office for order and customer management.",
-					"meta": "Project for a farmer's market in a closed circuit."
-				},
-				{
-					"name": "Vertical Sync (Personal project)",
-					"role": "Application around climbing",
-					"stack": "Next.js, React, TypeScript, Shadcn/UI, Tailwind CSS, Leaflet, AWS S3, Neon DB, Clerk.js, Vercel",
-					"impact": "Implementation of an application with a blog, a forum, an interactive map of climbing spots in France, with information on weather conditions, difficulties, comments, photos, videos, etc.",
-					"meta": "Project for an application around climbing.",
-					"url": "https://vertical-sync.iotactile.com"
-				},
-				{
-					"name": "ioTactile Games (Personal project)",
-					"role": "Application of board games",
-					"stack": "Nuxt.js, Vue.js, TypeScript, Vuetify",
-					"impact": "Implementation of a multiplayer and solo board game application, with an integrated music player",
-					"meta": "Project for a board game application.",
-					"url": "https://games.iotactile.com"
-				}
-			]
-		},
-		"about": {
-			"eyebrow": "About",
-			"title": "A frontend developer who thinks in products",
-			"intro": "I’m Jordan Biesmans, a web developer focused on the React / Next.js / TypeScript ecosystem. I design modern interfaces that are built to be fast, accessible and maintainable.",
-			"highlights": [
-				"Over 3 years of experience, 2 of which are freelance, on projects for startups, SMBs and large companies.",
-				"Used to collaborating with product, design and backend teams in agile environments.",
-				"Strong focus on frontend architecture quality, SEO, performance and accessibility."
-			],
-			"stack_title": "What I work with day to day",
-			"stack_items": [
-				"Next.js, React, Node.js,TypeScript",
-				"React Query, React hooks forms, Zustand, Zod",
-				"Shadcn/UI, Tailwind CSS, design systems, Figma handoff",
-				"Animation and micro‑interactions (Motion One / Framer‑like)",
-				"Fastify, TRPC, Prisma, APIs REST, Cache management, SSR / Server Components (Next.js)",
-				"Stripe, Resend, AWS, Vercel, Docker, Linux",
-				"Vitest, Playwright, Husky, Prettier, ESLint",
-				"DDD (Domain Driven Design), Clean Architecture"
-			],
-			"cta": "Available for frontend and light full‑stack missions, remote or hybrid."
-		},
-		"contact": {
-			"eyebrow": "Contact",
-			"title": "Let’s talk about your project",
-			"intro": "Whether you need help on an existing interface, a fast MVP or a full redesign, feel free to reach out through this form.",
-			"form": {
-				"name_label": "Name",
-				"name_placeholder": "Your name or your organisation’s name",
-				"email_label": "Email",
-				"email_placeholder": "you@example.com",
-				"message_label": "Message",
-				"message_placeholder": "Tell me about your project, your context or what you’d like to improve…",
-				"submit": "Send message"
-			},
-			"alt_contact": {
-				"label": "Prefer a direct contact?",
-				"email_prefix": "Drop me a line at",
-				"email": "jbs.io@protonmail.com",
-				"links_label": "Or find me here",
-				"github": "GitHub",
-				"linkedin": "LinkedIn"
-			},
-			"feedback": {
-				"success": "Thanks, your message has been sent.",
-				"error": "Something went wrong while sending your message. You can also email me directly."
-			}
-		}
-	}
+  "app": {
+    "title": "Jordan Biesmans — Web developer",
+    "description": "Portfolio of Jordan Biesmans, frontend-focused web developer (Next.js, React, TypeScript) — designing modern, performant and maintainable interfaces."
+  },
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "hello": "Hello, I'm Jordan",
+    "cta_primary": "View my projects",
+    "cta_secondary": "Learn more about me"
+  },
+  "layout": {
+    "name": "Jordan Biesmans",
+    "role": "Web developer — Next.js, React, Node.js, TypeScript",
+    "badge": "Frontend / Next.js / React",
+    "footer": "Frontend-focused web developer.",
+    "lang_switch_label": "Language",
+    "lang_switch_fr": "FR",
+    "lang_switch_en": "EN"
+  },
+  "home": {
+    "title_main": "I design web interfaces",
+    "title_accent": "modern, fast and maintainable.",
+    "body": "Web developer specialized in Next.js / React / TypeScript. I build modern digital experiences optimized for today’s needs: performance, SEO, accessibility and code quality.",
+    "stats": {
+      "stack_label": "Stack",
+      "stack_value": "Next.js, React, Node.js, TypeScript",
+      "focus_label": "Focus",
+      "focus_value": "Performance, SEO, accessibility",
+      "experience_label": "Experience",
+      "experience_value": "3+ years freelance",
+      "projects_label": "Projects",
+      "projects_value": "Startups, SMBs, enterprises"
+    },
+    "console": {
+      "title": "DEV CONSOLE // AVAILABILITY",
+      "line1": "> missions: frontend / integration / UI redesign",
+      "line2": "> formats: time-based, fixed-price, ongoing support",
+      "line3": "> location: remote France / Europe, hybrid (Paris, Rennes, Laval)",
+      "availability": "Open slots to start a new project in the coming weeks."
+    },
+    "projects": {
+      "eyebrow": "Projects",
+      "title": "Concrete work for real-world needs",
+      "description": "A selection of platforms and applications I’ve worked on recently, with a strong focus on performance, accessibility and frontend architecture quality.",
+      "items": [
+        {
+          "name": "Adequancy",
+          "role": "Interim management platform",
+          "stack": "Next.js, TypeScript, SSR, MUI, Redux",
+          "impact": "End-to-end development of the platform, with advanced SEO and performance optimisations on complex pages.",
+          "meta": "Project for a player in the interim management market.",
+          "url": "https://adequancy.com/dg"
+        },
+        {
+          "name": "Promea",
+          "role": "Inclusive HR application",
+          "stack": "Next.js, React Query, Zustand, Fastify, TRPC, Prisma, Zod",
+          "impact": "Built a solid frontend foundation in DDD (Domain Driven Design) and some backend interventions, focused on accessibility and long-term maintainability.",
+          "meta": "Tool to support and follow employees with disabilities."
+        },
+        {
+          "name": "Mediawan",
+          "role": "Corporate website redesign",
+          "stack": "React, Sass, Framer Motion",
+          "impact": "Precise UI integration, polished animations and multilingual support.",
+          "meta": "Project for a European media group.",
+          "url": "https://www.mediawan.com"
+        },
+        {
+          "name": "Reboat",
+          "role": "Marketing site",
+          "stack": "Next.js, Directus, SSR, TypeScript, Tailwind CSS",
+          "impact": "Creation of a modular system of custom components in Directus, giving the client full autonomy in building and organizing their pages.",
+          "meta": "Project for a boat rental service.",
+          "url": "https://reboat.com"
+        },
+        {
+          "name": "Sacré Brunch",
+          "role": "Marketing site & back-office",
+          "stack": "Nuxt.js, Vue.js, TypeScript, Stripe",
+          "impact": "Redesigned the booking flow, integrated a tool for managing rooms/reservations and implemented an online shop connected to Stripe.",
+          "meta": "Project for an event-driven brunch concept.",
+          "url": "https://sacrebrunch.com"
+        },
+        {
+          "name": "Le P'tit Champ",
+          "role": "Back-office",
+          "stack": "Nuxt.js, Vue.js, TypeScript",
+          "impact": "Implementation of a back-office for order and customer management.",
+          "meta": "Project for a farmer's market in a closed circuit."
+        },
+        {
+          "name": "Vertical Sync (Personal project)",
+          "role": "Application around climbing",
+          "stack": "Next.js, React, TypeScript, Shadcn/UI, Tailwind CSS, Leaflet, AWS S3, Neon DB, Clerk.js, Vercel",
+          "impact": "Implementation of an application with a blog, a forum, an interactive map of climbing spots in France, with information on weather conditions, difficulties, comments, photos, videos, etc.",
+          "meta": "Project for an application around climbing.",
+          "url": "https://vertical-sync.iotactile.com"
+        },
+        {
+          "name": "ioTactile Games (Personal project)",
+          "role": "Application of board games",
+          "stack": "Nuxt.js, Vue.js, TypeScript, Vuetify",
+          "impact": "Implementation of a multiplayer and solo board game application, with an integrated music player",
+          "meta": "Project for a board game application.",
+          "url": "https://games.iotactile.com"
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "About",
+      "title": "A frontend developer who thinks in products",
+      "intro": "I’m Jordan Biesmans, a web developer focused on the React / Next.js / TypeScript ecosystem. I design modern interfaces that are built to be fast, accessible and maintainable.",
+      "highlights": [
+        "Over 3 years of experience, 2 of which are freelance, on projects for startups, SMBs and large companies.",
+        "Used to collaborating with product, design and backend teams in agile environments.",
+        "Strong focus on frontend architecture quality, SEO, performance and accessibility."
+      ],
+      "stack_title": "What I work with day to day",
+      "stack_items": [
+        "Next.js, React, Node.js,TypeScript",
+        "React Query, React hooks forms, Zustand, Zod",
+        "Shadcn/UI, Tailwind CSS, design systems, Figma handoff",
+        "Animation and micro‑interactions (Motion One / Framer‑like)",
+        "Fastify, TRPC, Prisma, APIs REST, Cache management, SSR / Server Components (Next.js)",
+        "Stripe, Resend, AWS, Vercel, Docker, Linux",
+        "Vitest, Playwright, Husky, Prettier, ESLint",
+        "DDD (Domain Driven Design), Clean Architecture"
+      ],
+      "cta": "Available for frontend and light full‑stack missions, remote or hybrid."
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "title": "Let’s talk about your project",
+      "intro": "Whether you need help on an existing interface, a fast MVP or a full redesign, feel free to reach out through this form.",
+      "form": {
+        "name_label": "Name",
+        "name_placeholder": "Your name or your organisation’s name",
+        "email_label": "Email",
+        "email_placeholder": "you@example.com",
+        "message_label": "Message",
+        "message_placeholder": "Tell me about your project, your context or what you’d like to improve…",
+        "submit": "Send message"
+      },
+      "alt_contact": {
+        "label": "Prefer a direct contact?",
+        "email_prefix": "Drop me a line at",
+        "email": "jbs.io@protonmail.com",
+        "links_label": "Or find me here",
+        "github": "GitHub",
+        "linkedin": "LinkedIn"
+      },
+      "feedback": {
+        "success": "Thanks, your message has been sent.",
+        "error": "Something went wrong while sending your message. You can also email me directly."
+      }
+    }
+  }
 }
